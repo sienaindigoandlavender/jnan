@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+/*
+ * Jnan design tokens. Flat, calm, whimsical: white paper, deep forest ink,
+ * garden pastels, one warm terracotta for actions. No shadows, no grey text.
+ */
+:root {
+  --paper: #ffffff;
+  --ink: #1d2a23;
+  --ink-soft: #3f5247; /* secondary text, still dark */
+  --line: #e2e8e1;
+  --cloud: #f3f6f1; /* quiet blocks */
+
+  --clay: #b0503a; /* the one strong colour: actions */
+  --clay-ink: #ffffff;
+  --sage: #e1f0e0;
+  --leaf: #5f9a6b;
+  --apricot: #ffe6d3;
+  --saffron: #fff0c2;
+  --lavender: #ece6fb;
+  --sky: #e1eefa;
+  --petal: #fde6ee;
+
+  --radius: 18px;
+  --radius-lg: 28px;
+  --font-sans: "DM Sans Variable", system-ui, sans-serif;
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-tifinagh: "Noto Sans Tifinagh", sans-serif;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-cloud: var(--cloud);
+  --color-clay: var(--clay);
+  --color-clay-ink: var(--clay-ink);
+  --color-sage: var(--sage);
+  --color-leaf: var(--leaf);
+  --color-apricot: var(--apricot);
+  --color-saffron: var(--saffron);
+  --color-lavender: var(--lavender);
+  --color-sky: var(--sky);
+  --color-petal: var(--petal);
+  --radius-card: var(--radius);
+  --radius-big: var(--radius-lg);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-tifinagh: var(--font-tifinagh);
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+body {
+  min-height: 100dvh;
+  font-size: 17px;
+  line-height: 1.55;
+}
+:focus-visible {
+  outline: 2px solid var(--clay);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@keyframes jnan-fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes jnan-breathe {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+.fade-in {
+  animation: jnan-fade 360ms ease-out both;
+}
+.breathe {
+  animation: jnan-breathe 4s ease-in-out infinite;
+  transform-box: fill-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .title {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+  .tif {
+    font-family: var(--font-tifinagh);
+    font-style: normal;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 52px;
+    padding-inline: 1.75rem;
+    border-radius: 999px;
+    background: var(--clay);
+    color: var(--clay-ink);
+    font-weight: 600;
+    transition: transform 120ms ease;
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .btn:disabled {
+    background: var(--cloud);
+    color: var(--ink-soft);
+  }
+  .btn-quiet {
+    background: var(--cloud);
+    color: var(--ink);
+  }
+  .card {
+    background: var(--cloud);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+  }
+}
