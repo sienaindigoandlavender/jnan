@@ -1,0 +1,457 @@
+{
+  "$comment": "Tifinagh as standardised by IRCAM for Moroccan Amazigh: 33 letters, written left to right. Glyphs render with Noto Sans Tifinagh.",
+  "id": "tifinagh",
+  "title": "Tifinagh",
+  "tagline": "The Amazigh alphabet, one shape at a time.",
+  "guide": "Izem, the lion cub",
+  "letters": [
+    {
+      "id": "a",
+      "glyph": "ⴰ",
+      "latin": "a",
+      "name": "ya",
+      "sound": "a, as in “father”",
+      "story": "A little open mouth saying “aaa”."
+    },
+    {
+      "id": "r",
+      "glyph": "ⵔ",
+      "latin": "r",
+      "name": "yar",
+      "sound": "a rolled r",
+      "story": "A ring. Roll the r around it: rrr."
+    },
+    {
+      "id": "s",
+      "glyph": "ⵙ",
+      "latin": "s",
+      "name": "yas",
+      "sound": "s, as in “sun”",
+      "story": "The sun with a dot in its heart. Sun starts with s."
+    },
+    {
+      "id": "u",
+      "glyph": "ⵓ",
+      "latin": "u",
+      "name": "yu",
+      "sound": "u, as in “moon”",
+      "story": "Two little moons, one above the other: oo."
+    },
+    {
+      "id": "b",
+      "glyph": "ⴱ",
+      "latin": "b",
+      "name": "yab",
+      "sound": "b, as in “ball”",
+      "story": "A ball wearing a belt."
+    },
+    {
+      "id": "n",
+      "glyph": "ⵏ",
+      "latin": "n",
+      "name": "yan",
+      "sound": "n, as in “nose”",
+      "story": "A single nail standing straight up."
+    },
+    {
+      "id": "t",
+      "glyph": "ⵜ",
+      "latin": "t",
+      "name": "yat",
+      "sound": "t, as in “tea”",
+      "story": "A plus sign: it even looks like a t."
+    },
+    {
+      "id": "m",
+      "glyph": "ⵎ",
+      "latin": "m",
+      "name": "yam",
+      "sound": "m, as in “mint”",
+      "story": "A mouth wide open to the right, saying mmm."
+    },
+    {
+      "id": "l",
+      "glyph": "ⵍ",
+      "latin": "l",
+      "name": "yal",
+      "sound": "l, as in “lion”",
+      "story": "Two lines leaning on each other, like a lazy l."
+    },
+    {
+      "id": "i",
+      "glyph": "ⵉ",
+      "latin": "i",
+      "name": "yi",
+      "sound": "i, as in “tea”",
+      "story": "A little zigzag ladder, climbing up: iii."
+    },
+    {
+      "id": "d",
+      "glyph": "ⴷ",
+      "latin": "d",
+      "name": "yad",
+      "sound": "d, as in “door”",
+      "story": "A pointed roof, like the top of a dar, a house."
+    },
+    {
+      "id": "w",
+      "glyph": "ⵡ",
+      "latin": "w",
+      "name": "yaw",
+      "sound": "w, as in “water”",
+      "story": "A cup, or a well, ready to fill with water."
+    },
+    {
+      "id": "y",
+      "glyph": "ⵢ",
+      "latin": "y",
+      "name": "yay",
+      "sound": "y, as in “yes”",
+      "story": "A beak turned sideways, opening to say yes."
+    },
+    {
+      "id": "j",
+      "glyph": "ⵊ",
+      "latin": "j",
+      "name": "yaj",
+      "sound": "j, as in French “jour”",
+      "story": "A column with a big cap and a big base."
+    },
+    {
+      "id": "h",
+      "glyph": "ⵀ",
+      "latin": "h",
+      "name": "yah",
+      "sound": "h, as in “hello”",
+      "story": "A hoop on a stick: h for hoop."
+    },
+    {
+      "id": "z",
+      "glyph": "ⵣ",
+      "latin": "z",
+      "name": "yaz",
+      "sound": "z, as in “zebra”",
+      "story": "The free man, arms raised. It stands at the centre of the Amazigh flag."
+    },
+    {
+      "id": "zh",
+      "glyph": "ⵥ",
+      "latin": "ẓ",
+      "name": "yaẓ",
+      "sound": "a heavy z, from deep in the mouth",
+      "story": "The free man with an extra bar across: a weightier z."
+    },
+    {
+      "id": "k",
+      "glyph": "ⴽ",
+      "latin": "k",
+      "name": "yak",
+      "sound": "k, as in “kite”",
+      "story": "It looks like a k, and it is one."
+    },
+    {
+      "id": "f",
+      "glyph": "ⴼ",
+      "latin": "f",
+      "name": "yaf",
+      "sound": "f, as in “fig”",
+      "story": "A little bridge standing on two feet."
+    },
+    {
+      "id": "g",
+      "glyph": "ⴳ",
+      "latin": "g",
+      "name": "yag",
+      "sound": "g, as in “garden”",
+      "story": "An hourglass, grains falling through: g."
+    },
+    {
+      "id": "gh",
+      "glyph": "ⵖ",
+      "latin": "ɣ",
+      "name": "yaɣ",
+      "sound": "gh, like a French r, gargled softly",
+      "story": "A fork, or a wishbone: the gh of “Maghreb”."
+    },
+    {
+      "id": "x",
+      "glyph": "ⵅ",
+      "latin": "x",
+      "name": "yax",
+      "sound": "kh, like the ch in Scottish “loch”",
+      "story": "An X with a tail, a little scratchy, like the sound."
+    },
+    {
+      "id": "q",
+      "glyph": "ⵇ",
+      "latin": "q",
+      "name": "yaq",
+      "sound": "q, a k pushed far back in the throat",
+      "story": "A box with one corner sliced: a deep, hard q."
+    },
+    {
+      "id": "hh",
+      "glyph": "ⵃ",
+      "latin": "ḥ",
+      "name": "yaḥ",
+      "sound": "a breathy h, like fogging a mirror",
+      "story": "A little walking leg, breathing out: ḥaaa."
+    },
+    {
+      "id": "ain",
+      "glyph": "ⵄ",
+      "latin": "ɛ",
+      "name": "yaɛ",
+      "sound": "ɛ, the deep throat sound of Arabic ع",
+      "story": "A tiny stool. Squeeze the sound from your throat."
+    },
+    {
+      "id": "c",
+      "glyph": "ⵛ",
+      "latin": "c",
+      "name": "yac",
+      "sound": "sh, as in “shell”",
+      "story": "A snail shell with its head peeking out: sh."
+    },
+    {
+      "id": "dd",
+      "glyph": "ⴹ",
+      "latin": "ḍ",
+      "name": "yaḍ",
+      "sound": "a heavy d, tongue spread wide",
+      "story": "It looks like an E, but it is a heavy, dark d."
+    },
+    {
+      "id": "tt",
+      "glyph": "ⵟ",
+      "latin": "ṭ",
+      "name": "yaṭ",
+      "sound": "a heavy t, tongue spread wide",
+      "story": "The heavy d with a plus in the middle: a heavy t."
+    },
+    {
+      "id": "ss",
+      "glyph": "ⵚ",
+      "latin": "ṣ",
+      "name": "yaṣ",
+      "sound": "a heavy s",
+      "story": "The sun crossed by a stroke: a heavier s."
+    },
+    {
+      "id": "rr",
+      "glyph": "ⵕ",
+      "latin": "ṛ",
+      "name": "yaṛ",
+      "sound": "a heavy r",
+      "story": "The ring with a little tail: a heavier r."
+    },
+    {
+      "id": "e",
+      "glyph": "ⴻ",
+      "latin": "e",
+      "name": "yey",
+      "sound": "e, a soft short sound, like “the”",
+      "story": "Two dots with a line between them, very quiet."
+    },
+    {
+      "id": "gw",
+      "glyph": "ⴳⵯ",
+      "latin": "gʷ",
+      "name": "yagʷ",
+      "sound": "g with rounded lips: gw",
+      "story": "The hourglass with a little cup on its shoulder: the lips round to say w."
+    },
+    {
+      "id": "kw",
+      "glyph": "ⴽⵯ",
+      "latin": "kʷ",
+      "name": "yakʷ",
+      "sound": "k with rounded lips: kw",
+      "story": "The k with the same little cup: kw."
+    }
+  ],
+  "words": [
+    {
+      "id": "ul",
+      "tifinagh": "ⵓⵍ",
+      "latin": "ul",
+      "meaning": "heart",
+      "lesson": "l2"
+    },
+    {
+      "id": "aman",
+      "tifinagh": "ⴰⵎⴰⵏ",
+      "latin": "aman",
+      "meaning": "water",
+      "lesson": "l2"
+    },
+    {
+      "id": "tamurt",
+      "tifinagh": "ⵜⴰⵎⵓⵔⵜ",
+      "latin": "tamurt",
+      "meaning": "land, country",
+      "lesson": "l2"
+    },
+    {
+      "id": "tanmmirt",
+      "tifinagh": "ⵜⴰⵏⵎⵎⵉⵔⵜ",
+      "latin": "tanmmirt",
+      "meaning": "thank you",
+      "lesson": "l2"
+    },
+    {
+      "id": "adrar",
+      "tifinagh": "ⴰⴷⵔⴰⵔ",
+      "latin": "adrar",
+      "meaning": "mountain",
+      "lesson": "l3"
+    },
+    {
+      "id": "ayyur",
+      "tifinagh": "ⴰⵢⵢⵓⵔ",
+      "latin": "ayyur",
+      "meaning": "moon, month",
+      "lesson": "l3"
+    },
+    {
+      "id": "aydi",
+      "tifinagh": "ⴰⵢⴷⵉ",
+      "latin": "aydi",
+      "meaning": "dog",
+      "lesson": "l3"
+    },
+    {
+      "id": "azul",
+      "tifinagh": "ⴰⵣⵓⵍ",
+      "latin": "azul",
+      "meaning": "hello",
+      "lesson": "l4"
+    },
+    {
+      "id": "afus",
+      "tifinagh": "ⴰⴼⵓⵙ",
+      "latin": "afus",
+      "meaning": "hand",
+      "lesson": "l4"
+    },
+    {
+      "id": "tafukt",
+      "tifinagh": "ⵜⴰⴼⵓⴽⵜ",
+      "latin": "tafukt",
+      "meaning": "sun",
+      "lesson": "l4"
+    },
+    {
+      "id": "aghrum",
+      "tifinagh": "ⴰⵖⵔⵓⵎ",
+      "latin": "aɣrum",
+      "meaning": "bread",
+      "lesson": "l5"
+    },
+    {
+      "id": "amazigh",
+      "tifinagh": "ⴰⵎⴰⵣⵉⵖ",
+      "latin": "amaziɣ",
+      "meaning": "Amazigh, the free one",
+      "lesson": "l5"
+    },
+    {
+      "id": "amuc",
+      "tifinagh": "ⴰⵎⵓⵛ",
+      "latin": "amuc",
+      "meaning": "cat",
+      "lesson": "l5"
+    },
+    {
+      "id": "tifinagh",
+      "tifinagh": "ⵜⵉⴼⵉⵏⴰⵖ",
+      "latin": "tifinaɣ",
+      "meaning": "Tifinagh",
+      "lesson": "l5"
+    },
+    {
+      "id": "asggwas",
+      "tifinagh": "ⴰⵙⴳⴳⵯⴰⵙ",
+      "latin": "asggʷas",
+      "meaning": "year",
+      "lesson": "l6"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Circles and suns",
+      "intro": "The round letters come first. Most of them are drawn with a single circle.",
+      "letters": [
+        "a",
+        "r",
+        "s",
+        "u",
+        "b"
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "Sticks and crosses",
+      "intro": "Straight lines now. With these, you can already read your first words.",
+      "letters": [
+        "n",
+        "t",
+        "m",
+        "l",
+        "i"
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Roofs and cups",
+      "intro": "Shapes you know from everyday things: a roof, a cup, a beak.",
+      "letters": [
+        "d",
+        "w",
+        "y",
+        "j",
+        "h"
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "The free man and friends",
+      "intro": "The famous ⵣ, and the letters to say hello.",
+      "letters": [
+        "z",
+        "zh",
+        "k",
+        "f",
+        "g"
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Sounds from the throat",
+      "intro": "The sounds Darija and Tamazight share, deep and rich.",
+      "letters": [
+        "gh",
+        "x",
+        "q",
+        "hh",
+        "ain",
+        "c"
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "Heavy letters and last ones",
+      "intro": "The weightier twins, the quiet e, and the rounded gʷ and kʷ.",
+      "letters": [
+        "dd",
+        "tt",
+        "ss",
+        "rr",
+        "e",
+        "gw",
+        "kw"
+      ]
+    }
+  ]
+}
