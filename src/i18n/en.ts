@@ -1,0 +1,88 @@
+// UI strings. Every visible string lives here so other languages can follow.
+export const en = {
+  "app.name": "Jnan",
+  "app.tagline": "A quiet garden of things to learn.",
+
+  "greet.morning": "Good morning",
+  "greet.day": "Hello",
+  "greet.evening": "Good evening",
+  "home.sub": "Which corner of the garden today?",
+  "home.growing": "{count} of {total} letters have bloomed",
+  "home.soon": "Sleeping seed",
+  "home.soonNote": "Its creature arrives when the corner opens.",
+
+  "home.awake": "Open",
+  "home.corners": "The corners",
+  "home.letGo": "Start with the first letters",
+  "home.resume": "Continue: {title}",
+  "home.allDone": "All six lessons planted. Visit the alphabet any time.",
+
+  "corner.tifinagh": "Tifinagh",
+  "corner.tifinaghSub": "with Izem, the lion cub",
+  "corner.darija": "Darija",
+  "corner.arabic": "Arabic letters",
+  "corner.languages": "Spanish, Italian, Portuguese",
+  "corner.art": "Art history",
+  "corner.quantum": "Quantum physics",
+  "corner.stoic": "Stoicism and mindset",
+  "corner.oracle": "Tarot, I Ching, runes",
+  "corner.green": "Gardens, herbs, houses",
+  "corner.journals": "Journals",
+  "corner.money": "Expenses",
+
+  "nav.garden": "Garden",
+  "nav.back": "Back",
+
+  "room.progress": "{known} of {total} letters known",
+  "room.lessons": "Lessons",
+  "room.alphabet": "The whole alphabet",
+  "room.alphabetSub": "All 33 letters, and the ones you know",
+  "room.review": "Review",
+  "room.reviewDue": "{count} letter(s) would like to see you",
+  "room.reviewNone": "Nothing to review right now",
+  "room.letters": "{count} letters",
+  "room.done": "Done",
+  "room.next": "Next",
+  "room.later": "Later",
+  "room.again": "Again",
+
+  "lesson.start": "Let's begin",
+  "lesson.next": "Next",
+  "lesson.sound": "Sound",
+  "lesson.name": "Its name",
+  "lesson.story": "To remember it",
+  "lesson.readTitle": "Can you read it?",
+  "lesson.readHint": "Sound it out letter by letter, then tap.",
+  "lesson.reveal": "Show me",
+  "lesson.quizTitle": "A little game",
+  "lesson.quizIntro":
+    "{count} quick questions. Wrong answers are welcome: they show Izem what to bring back.",
+  "lesson.quizStart": "Play",
+  "lesson.doneTitle": "Beautiful.",
+  "lesson.doneBody":
+    "These letters are planted. Izem will bring them back now and then, so they take root.",
+  "lesson.backToRoom": "Back to Tifinagh",
+  "lesson.nextLesson": "Next lesson",
+
+  "quiz.whichSound": "Which sound is this?",
+  "quiz.whichGlyph": "Which letter makes “{latin}”?",
+  "quiz.whatMeans": "What does this word mean?",
+  "quiz.right": "Yes!",
+  "quiz.wrong": "Not quite. It's",
+  "quiz.continue": "Continue",
+  "quiz.finish": "Finish",
+  "quiz.count": "{current} of {total}",
+  "quiz.score": "{score} of {total}",
+
+  "review.title": "Review",
+  "review.intro": "{count} letter(s) are back for a visit.",
+  "review.empty": "Everything is resting. Come back tomorrow.",
+  "review.start": "Begin",
+  "review.done": "All visited. Izem is pleased.",
+
+  "alphabet.title": "The alphabet",
+  "alphabet.intro": "Tap a letter to see its story. A small leaf marks the ones you know.",
+  "alphabet.known": "Known",
+} as const;
+
+export type MessageKey = keyof typeof en;
